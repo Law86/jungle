@@ -1,0 +1,15 @@
+<h4>Order Total: $<%= @order.total_cents/ 100.0 %></h4>
+  <% @order.line_items.each  do |item| %>
+  </br>
+
+    <h4><%= item.product.name %></h4>
+    <p><img src="<%= item.product.image %>" width="300" height="300"/></p>
+  </td>
+  <td>
+  <div>
+    <p><strong>Quantity:</strong> <%= item.quantity %></p>
+  </div>
+<p><strong>Item Total:</strong> $<%= item.total_price_cents/ 100.0 %></p>
+<p><strong>Item Description:</strong> <%= item.product.description %></p>
+  </br>
+  <% end %>
