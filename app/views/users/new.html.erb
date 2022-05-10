@@ -1,0 +1,15 @@
+<br/>
+<h3> SIGN UP </H3>
+<br/>
+<p> Register your account for full access! </p>
+
+<%= form_for :user, url: '/users' do |f| %>
+  <div class="form-group">
+
+<%= f.text_field :first_name, class:"form-control", placeholder:"First Name" %>
+<%= f.text_field :last_name, class:"form-control", placeholder:"Last Name" %>
+<%= f.text_field :email_address, class:"form-control", placeholder:"Email" %>
+<%= f.text_field :password, class:"form-control", placeholder:"Password" %>
+<br/>
+  <%= f.submit "Submit", class:"btn btn-primary"  %>
+<% end %>
