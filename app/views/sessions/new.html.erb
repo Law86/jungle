@@ -1,0 +1,21 @@
+<br/>
+<h3> LOGIN </H3>
+<br/>
+<p> Sign in to your account for full access! </p>
+
+<%= form_tag '/sessions#create' do %>
+  <%= text_field_tag :email, placeholder: "Email" %>
+  <br/>
+  
+  <%= text_field_tag :password, placeholder: "Password" %>
+  
+  <br/>
+  <%= submit_tag "Submit", class:"btn btn-primary" %>
+  <% end %>
+
+<% flash.each do |type, msg| %>
+  <div class="alert alert-danger">
+    <%= msg %>
+  </div>
+<% end %>
+

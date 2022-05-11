@@ -12,4 +12,13 @@
 <%= f.text_field :password, class:"form-control", placeholder:"Password" %>
 <br/>
   <%= f.submit "Submit", class:"btn btn-primary"  %>
+
+<br/>
+<% end %>
+
+<% flash.each do |type, msg| %>
+  <div class="alert alert-danger">
+    <%= msg %>
+  </div>
+
 <% end %>
