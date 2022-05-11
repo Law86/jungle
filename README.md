@@ -29,3 +29,21 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots
+
+## Home
+
+!["Home"](https://github.com/Law86/scheduler/blob/master/doc/screen1.png)
+
+## Sign Up
+
+!["Sign Up"](https://github.com/Law86/scheduler/blob/master/doc/screen2%20-%20new%20appt.png)
+
+## Login
+
+!["Login"](https://github.com/Law86/scheduler/blob/master/doc/screen%203%20-%20hover%20over%20edit%20delete.png)
+
+## My Cart
+
+!["My Cart"](https://github.com/Law86/scheduler/blob/master/doc/Spots%20remaining.png)
