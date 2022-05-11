@@ -34,16 +34,16 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Home
 
-!["Home"](https://github.com/Law86/scheduler/blob/master/doc/screen1.png)
+!["Home"](https://github.com/Law86/jungle/blob/master/public/images/home.png)
 
 ## Sign Up
 
-!["Sign Up"](https://github.com/Law86/scheduler/blob/master/doc/screen2%20-%20new%20appt.png)
+!["Sign Up"](https://github.com/Law86/jungle/blob/master/public/images/signup.png)
 
 ## Login
 
-!["Login"](https://github.com/Law86/scheduler/blob/master/doc/screen%203%20-%20hover%20over%20edit%20delete.png)
+!["Login"](https://github.com/Law86/jungle/blob/master/public/images/login.png)
 
 ## My Cart
 
-!["My Cart"](https://github.com/Law86/scheduler/blob/master/doc/Spots%20remaining.png)
+!["My Cart"](https://github.com/Law86/jungle/blob/master/public/images/mycart.png)
